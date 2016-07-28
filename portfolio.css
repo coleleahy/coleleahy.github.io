@@ -1,0 +1,158 @@
+/* --- RESET --- */
+
+a, body, button, div, em, footer, header, h1, h2, html, img, input, main, p, span {
+    background: inherit;
+    border: 0;
+    color: inherit;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    text-decoration: none;
+    vertical-align: baseline;
+}
+
+/* --- CUSTOM STYLES --- */
+
+a {
+    padding-right: 3em;
+    transition: color 0.25s ease;
+}
+
+a:hover {
+    color: #eaf6db;
+    cursor: pointer;
+}
+
+body {
+    background: #f3f4f0;
+    color: #3b3a36;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    height: 100vh;
+}
+
+footer {
+    background: #b3c2bf;
+    height: 3em;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2.75em;
+    font-weight: 700;
+    letter-spacing: -0.035em;
+    line-height: 1.3;
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0.125em;
+    margin: 0 auto;
+    margin-bottom: 2.5em;
+    margin-top: 4.5em;
+    text-align: center;
+    text-transform: uppercase;
+    width: 30%;
+}
+
+header div.logo {
+    font-weight: 900;
+    letter-spacing: 0.35em;
+    margin-bottom: 2.5em;
+    text-transform: uppercase;
+}
+
+header p {
+    margin: 0 0 3em 0;
+}
+
+header span.symbol {
+    font-size: 2em;
+    margin-right: 0.65em;
+}
+
+header span.title {
+    font-size: 1.375em;
+}
+
+img {
+    height: auto;
+    max-height: 500px;
+    max-width: 500px;
+    width: auto;
+}
+
+.inner {
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 8em;
+}
+
+.links-container {
+    padding-right: 3.5em;
+}
+
+main {
+    height: 100%;
+    padding-top: 5.5em;
+}
+
+main h1 {
+    width: 60%;
+}
+
+main p {
+    font-size: 1.25em;
+    width: 80%;
+}
+
+.row {
+    display: flex;
+}
+
+.tile img {
+    height: 90%;
+    opacity: 0.6;
+    transition: all 0.5s ease;
+    width: 90%;
+}
+
+.tile img:hover {
+    opacity: 1.0;
+    width: 100%;
+}
+
+.tile {
+    padding: 0;
+    text-align: center;
+    width: calc(33% - 2.5em);
+}
+
+.tiles-container {
+    display: flex;
+    flex-flow: row wrap;
+    height: 24em;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 6em;
+}
+
+.top-bar {
+    background: #c0dfd9;
+    color: #6f7572;
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    justify-content: flex-end;
+    line-height: 4em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
