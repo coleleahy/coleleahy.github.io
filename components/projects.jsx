@@ -9,10 +9,10 @@ const Projects = React.createClass({
         <a className='tile' href='http://iff-not.us' target='_blank'>
           <img src='../assets/iffnot_screenshot.png' alt='iff-not'/>
         </a>
-        <a className='tile' href='http://coleleahy.github.io/regexy' target='_blank'>
+        <a className='tile' href='http://coleleahy.com/regexy' target='_blank'>
           <img src='../assets/regexy_screenshot.png' alt='regexy'/>
         </a>
-        <a className='tile' href='http://coleleahy.github.io/amzn-alytics' target='_blank'>
+        <a className='tile' href='http://coleleahy.com/amzn-alytics' target='_blank'>
           <img src='../assets/amznalytics_screenshot.png' alt='amzn-alytics'/>
         </a>
       </div>

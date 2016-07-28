@@ -21354,12 +21354,12 @@
 	        ),
 	        _react2.default.createElement(
 	          'a',
-	          { className: 'tile', href: 'http://coleleahy.github.io/regexy', target: '_blank' },
+	          { className: 'tile', href: 'http://coleleahy.com/regexy', target: '_blank' },
 	          _react2.default.createElement('img', { src: '../assets/regexy_screenshot.png', alt: 'regexy' })
 	        ),
 	        _react2.default.createElement(
 	          'a',
-	          { className: 'tile', href: 'http://coleleahy.github.io/amzn-alytics', target: '_blank' },
+	          { className: 'tile', href: 'http://coleleahy.com/amzn-alytics', target: '_blank' },
 	          _react2.default.createElement('img', { src: '../assets/amznalytics_screenshot.png', alt: 'amzn-alytics' })
 	        )
 	      )
