@@ -38,7 +38,9 @@ body {
 
 footer {
     background: #b3c2bf;
+    bottom: 0;
     height: 3em;
+    position: absolute;
     width: 100%;
 }
 
@@ -100,8 +102,10 @@ img {
 }
 
 main {
-    height: 100%;
-    padding-top: 5.5em;
+    min-height: 100%;
+    padding-bottom: 3em; /* Height of footer */
+    padding-top: 4em;
+    position: relative;
 }
 
 main h1 {
