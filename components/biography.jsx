@@ -13,7 +13,7 @@ const Biography = React.createClass({
           </header>
           <header>
             <h1>I'm a passionate web developer with the mind of a logician.</h1>
-            <p>I build dynamic web applications in Rails, JavaScript, and React/Flux. In my free time I nurture an affinity for Lisp. Before transitioning to programming, I honed my technical skills as a Ph.D. student in logic and foundations of mathematics at MIT.</p>
+            <p>I build dynamic web applications in Rails, JavaScript, and React/Flux. In my free time I nurture an affinity for Lisp. Before transitioning to programming, I cut my chops as a Ph.D. student in logic and foundations of mathematics at MIT.</p>
           </header>
         </div>
         <img src='../assets/headshot.jpeg' alt='headshot'/>
