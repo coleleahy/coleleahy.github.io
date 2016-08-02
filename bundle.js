@@ -4187,21 +4187,39 @@
 	        { className: 'tiles-container' },
 	        _react2.default.createElement(
 	          'a',
-	          { className: 'tile', href: 'http://iff-not.us', target: '_blank' },
+	          { className: 'tile',
+	            href: 'http://iff-not.us',
+	            target: '_blank',
+	            onClick: this.trackIffNot },
 	          _react2.default.createElement('img', { src: '../assets/iffnot_screenshot.png', alt: 'iff-not' })
 	        ),
 	        _react2.default.createElement(
 	          'a',
-	          { className: 'tile', href: 'http://coleleahy.com/regexy', target: '_blank' },
+	          { className: 'tile',
+	            href: 'http://coleleahy.com/regexy',
+	            target: '_blank',
+	            onClick: this.trackRegexy },
 	          _react2.default.createElement('img', { src: '../assets/regexy_screenshot.png', alt: 'regexy' })
 	        ),
 	        _react2.default.createElement(
 	          'a',
-	          { className: 'tile', href: 'http://coleleahy.com/amzn-alytics', target: '_blank' },
+	          { className: 'tile',
+	            href: 'http://coleleahy.com/amzn-alytics',
+	            target: '_blank',
+	            onClick: this.trackAmznAlytics },
 	          _react2.default.createElement('img', { src: '../assets/amznalytics_screenshot.png', alt: 'amzn-alytics' })
 	        )
 	      )
 	    );
+	  },
+	  trackAmznAlytics: function trackAmznAlytics() {
+	    mixpanel.track('Viewed AmznAlytics');
+	  },
+	  trackIffNot: function trackIffNot() {
+	    mixpanel.track('Viewed IffNot');
+	  },
+	  trackRegexy: function trackRegexy() {
+	    mixpanel.track('Viewed Regexy');
 	  }
 	});
 	
@@ -21349,21 +21367,33 @@
 	        { className: 'links-container' },
 	        _react2.default.createElement(
 	          'a',
-	          { href: 'https://github.com/coleleahy', target: '_blank' },
+	          { href: 'https://github.com/coleleahy',
+	            target: '_blank',
+	            onClick: this.trackGitHub },
 	          'GitHub'
 	        ),
 	        _react2.default.createElement(
 	          'a',
-	          { href: 'https://www.linkedin.com/in/coleleahy', target: '_blank' },
+	          { href: 'https://www.linkedin.com/in/coleleahy',
+	            target: '_blank',
+	            onClick: this.trackLinkedIn },
 	          'LinkedIn'
 	        ),
 	        _react2.default.createElement(
 	          'a',
-	          { href: '../assets/leahy_resume.pdf', target: '_blank', onClick: this.trackResume },
+	          { href: '../assets/leahy_resume.pdf',
+	            target: '_blank',
+	            onClick: this.trackResume },
 	          'Resume'
 	        )
 	      )
 	    );
+	  },
+	  trackGitHub: function trackGitHub() {
+	    mixpanel.track('Viewed GitHub');
+	  },
+	  trackLinkedIn: function trackLinkedIn() {
+	    mixpanel.track('Viewed LinkedIn');
 	  },
 	  trackResume: function trackResume() {
 	    mixpanel.track('Viewed resume');
