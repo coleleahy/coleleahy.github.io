@@ -156,6 +156,7 @@ main p {
     font-weight: 700;
     justify-content: flex-end;
     line-height: 4em;
+    opacity: 0.9;
     position: fixed;
     top: 0;
     width: 100%;
