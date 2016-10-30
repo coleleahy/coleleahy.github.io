@@ -4163,8 +4163,7 @@
 	            ', where we\'re building a path to optimal health and healthcare that\'s accessible to everyone, everywhere. Before transitioning to programming, I was a Ph.D. student in logic and foundations of mathematics at MIT.'
 	          )
 	        )
-	      ),
-	      _react2.default.createElement('img', { src: '../assets/headshot.jpeg', alt: 'headshot' })
+	      )
 	    );
 	  }
 	});
