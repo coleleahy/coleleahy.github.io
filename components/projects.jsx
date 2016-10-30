@@ -4,7 +4,7 @@ const Projects = React.createClass({
   render() {
     return (
       <div>
-      <h2>Latest Projects</h2>
+      <h2>Toy Projects</h2>
       <div className='tiles-container'>
         <a className='tile'
            href='http://iff-not.us'
