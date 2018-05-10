@@ -8,7 +8,6 @@ const Main = React.createClass({
       <main>
         <div className='inner'>
           <Biography/>
-          <Projects/>
         </div>
       </main>
     );

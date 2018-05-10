@@ -12,8 +12,7 @@ const Biography = React.createClass({
             </div>
           </header>
           <header>
-            <h1>Ruby developer, mathematical logician, problem solver.</h1>
-            <p>I'm a data engineer at Grand Rounds, where we're building a path to optimal health and healthcare that's accessible to everyone, everywhere. Before transitioning to programming, I was a Ph.D. student in logic and foundations of mathematics at MIT.</p>
+            <p>I'm a data engineer at Grand Rounds, where we're building a path to optimal health and healthcare that's accessible to everyone, everywhere.</p>
           </header>
         </div>
       </div>
