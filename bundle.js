@@ -4081,8 +4081,7 @@
 	      _react2.default.createElement(
 	        'div',
 	        { className: 'inner' },
-	        _react2.default.createElement(_biography2.default, null),
-	        _react2.default.createElement(_projects2.default, null)
+	        _react2.default.createElement(_biography2.default, null)
 	      )
 	    );
 	  }
@@ -4137,14 +4136,9 @@
 	          'header',
 	          null,
 	          _react2.default.createElement(
-	            'h1',
-	            null,
-	            'Ruby developer, mathematical logician, problem solver.'
-	          ),
-	          _react2.default.createElement(
 	            'p',
 	            null,
-	            'I\'m a data engineer at Grand Rounds, where we\'re building a path to optimal health and healthcare that\'s accessible to everyone, everywhere. Before transitioning to programming, I was a Ph.D. student in logic and foundations of mathematics at MIT.'
+	            'I\'m a data engineer at Grand Rounds, where we\'re building a path to optimal health and healthcare that\'s accessible to everyone, everywhere.'
 	          )
 	        )
 	      )
